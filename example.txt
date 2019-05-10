@@ -1,0 +1,7 @@
+#qustion 14
+#compound interest
+P = int(input("enter original deposited account"))
+R = int(input("annual interest value"))
+n = int(input("enter numbers of times per year"))
+t = int(input("enter number of specified year"))
+print("amount of money", P*(1+(R/n))**(n*t))
